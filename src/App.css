@@ -1,0 +1,39 @@
+
+.custom-table {
+  background-color:rgb(137, 241, 137);
+  
+}
+:root{
+  --toastify-toast-margin-top:"30px"
+}
+/* home css */
+
+.home-task-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); /* Automatically adjust column width */
+  grid-gap:20px; /* Add gap between cards */
+
+}
+/* .task-container{
+  display: flex;
+  justify-content: center;
+} */
+.alltasks {
+  display: flex;
+  
+  overflow-x: auto;
+  
+}
+.alltasks::-webkit-scrollbar{
+  width: 0px;
+}
+.cards {
+  max-width: 20rem;
+  min-width: 20rem;
+
+}
+
+.cards:hover {
+ 
+  cursor: pointer;
+}
